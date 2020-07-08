@@ -1,4 +1,4 @@
-$font-primary: 'Quicksand', Arial, sans-serif;
+$font-primary: 'Open-sans', Arial, sans-serif;
 $font-secondary: 'Playfair Display', Georgia, serif;
 
 // Overrides
@@ -84,6 +84,17 @@ $form-group-margin-bottom:       30px !default;
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'muli';
+	src:url('../fonts/muli/Muli-Regular.ttf');
+	src:url('../fonts/muli/Muli-Light.ttf') format('embedded-opentype'),
+		url('../fonts/muli/Muli-Bold.ttf') format('truetype'),
+		url('../fonts/muli/Muli-Semibold.ttf') format('woff'),
+		url('../fonts/muli/Muli-Black.ttf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @mixin icomoon() {
 	
 	font-family: 'icomoon';
@@ -117,7 +128,7 @@ $form-group-margin-bottom:       30px !default;
 // Template Base
 body {
 	font-family: $font-primary;
-	font-weight: 400;
+	font-weight: 900;
 	font-size: 15px;
 	line-height: 1.8;
 	color: rgba(0,0,0,.7);
