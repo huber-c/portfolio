@@ -84,7 +84,7 @@ $form-group-margin-bottom:       30px !default;
 	font-style: normal;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'muli';
 	src:url('../fonts/muli/Muli-Regular.ttf');
 	src:url('../fonts/muli/Muli-Light.ttf') format('embedded-opentype'),
@@ -93,7 +93,7 @@ $form-group-margin-bottom:       30px !default;
 		url('../fonts/muli/Muli-Black.ttf') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 @mixin icomoon() {
 	
@@ -128,8 +128,8 @@ $form-group-margin-bottom:       30px !default;
 // Template Base
 body {
 	font-family: $font-primary;
-	font-weight: 900;
-	font-size: 15px;
+	font-weight: 500;
+	font-size: 16px;
 	line-height: 1.8;
 	color: rgba(0,0,0,.7);
 	@media screen and (max-width: $screen-md) {
