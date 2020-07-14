@@ -42,7 +42,10 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
+	<!-- Lightbox 2 -->
+	<link href="node_modules/lightbox2/src/css/lightbox.css" rel="stylesheet" />
+	<!-- Jquery -->
+	<script src="jquery-3.5.1.min.js"></script>
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -382,10 +385,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Web Design</a></span> <!--<span><a href="#">Graphic Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span>--></p>
+							<p class="work-menu"><span><a href="#ancor-webdesign" class="active">Web Design</a></span> <span><a href="#ancor-graphicdesign">Graphic Design</a></span> <!--<span><a href="#">Software</a></span> <span><a href="#">Apps</a></span>--></p>
 						</div>
 					</div>
-					<div class="row">
+					<div id="ancor-webdesign" class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="project" style="background-image: url(images/work/web/work-1.jpg);">
 								<div class="desc">
@@ -447,6 +450,71 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="con">
 										<h3><a href="https://carhire.ryanair.com/" target="_blank">Rynair carhire</a></h3>
 										<span>Brand replacement, design adjustment, color scheme partner design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="ancor-webdesign" class="row">
+						<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft" style="padding: 1.8em 0 0 2.1em; margin-bottom: -25px;">
+							<p class="work-menu"><span><a href="#ancor-webdesign">Web Design</a></span> <span><a href="#ancor-graphicdesign" class="active">Graphic Design</a></span> <!--<span><a href="#">Software</a></span> <span><a href="#">Apps</a></span>--></p>
+						</div>
+						<div id="ancor-graphicdesign" class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-1.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-1.jpg" data-lightbox="image-1" data-title="Wizzair Print Banner">Wizzair Print Banner</a></h3>
+													<span>Car rental print campaign, with visibility in all wizzair monthly board magazines</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-5.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-5.jpg" data-lightbox="image-1" data-title="Email campaign banner">Email campaign banner</a></h3>
+													<span>Mock-up created for Email banner campaign</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-2.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-2.jpg" data-lightbox="image-1" data-title="Jet2 promo banner">Jet2 promo banner</a></h3>
+													<span>Jet2carhire promo web banner in cooperation with Sicily by car</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-4.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-4.jpg" data-lightbox="image-1" data-title="Santander web banner">Santander web banner</a></h3>
+													<span>Car rental web banner, to promote discount</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-3.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-3.jpg" data-lightbox="image-1" data-title="Polish Airlines car rental">Polish Airlines car rental</a></h3>
+													<span>Hero Banner used on polish airlines to offer car rental</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/work/graphic/thumb-8.jpg);">
+								<div class="desc">
+									<div class="con">
+									<h3><a class="image-link" href="images/work/graphic/banner-8.jpg" data-lightbox="image-1" data-title="Web car rental banner">Web car rental banner</a></h3>
+													<span>Web sized car rental banner for Partner supplied banner gallery</span>
 									</div>
 								</div>
 							</div>
@@ -586,18 +654,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    </div>
 									</div>
 									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">React LinkedIn
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>React Essential Training course</p>
-									        </div>
-									    </div>
-									</div>
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">React LinkedIn
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <a href="content/CertificateOfCompletion_React-Essential-Training.pdf" target="_blank"><p>React.js Essential Training</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
 									<!--<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
@@ -777,11 +845,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
+	<!-- Lightbox 2 -->
+	<script src="node_modules/lightbox2/src/js/lightbox.js"></script>
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
-
+	
 	</body>
 </html>
 
