@@ -1427,3 +1427,11 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  iframe:focus {
+    outline: none;
+  }
+  
+  iframe[seamless] {
+    display: block;
+  }
